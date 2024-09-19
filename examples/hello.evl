@@ -1,0 +1,7 @@
+include std;
+
+// Something else to note: Evalate is backwards-compatable with all C++ header files. See examples/headers.evl.
+
+fn int main() {
+    std.println("hello world");
+}

@@ -1,6 +1,5 @@
-MIT License
-
-Copyright (c) 2024 Evalate
+# MIT License
+Copyright (c) 2024 Ben Daws <ben@bendaws.net>, Evalate Authors <https://github.com/evalate/evalate>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,0 +1,16 @@
+// Import from a C++ header file:
+
+include cpp "/usr/include/iostream"
+
+fn int main() {
+    string text = "text here";
+
+    extern cpp fn void println(text) {
+        // Any code put here will be handed to a C++ compiler
+        // Any arguments will be defined as C++ variables
+
+        std::cout << text << std::endl;
+    }
+
+    return 0;
+}
