@@ -8,6 +8,10 @@
 
 #include <iostream>
 
+#include "flags.hpp"
+
 int main(int argc, char* argv) {
-    std::cout << *argv << std::endl;
+    std::vector<std::string> flags = parseflags(argv);
+
+    std::string executable = flags[0];
 }
