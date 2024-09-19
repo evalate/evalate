@@ -1,7 +1,7 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Evalate icon" src="icons/evalate-lang.png">
 
 # The Evalate Programming Language
-Evalate is an open-source simple programming language inspired by the likes of [C++](https://isocpp.org) and [Carbon](https://github.com/carbon-language/carbon-lang). It is written in C++ and is currently in an early development position. Evalate aims to be more geared towards already existing C++ developers to make writing code a little bit easier.
+Evalate (*eh-va-late*) is an open-source simple programming language inspired by the likes of [C++](https://isocpp.org) and [Carbon](https://github.com/carbon-language/carbon-lang). It is written in C++ and is currently in an early development position. Evalate aims to be more geared towards already existing C++ developers to make writing code a little bit easier.
 
 ## Code Example
 This file: ``examples/hello.evl``
