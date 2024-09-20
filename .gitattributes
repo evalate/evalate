@@ -1,1 +1,8 @@
+*.c linguist-language=C
+*.cpp linguist-language=C++
+*.cc linguist-language=C++
+
 *.evl linguist-language=C++
+
+*.h linguist-language=C
+*.hpp linguist-language=C++

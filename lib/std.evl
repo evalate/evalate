@@ -1,0 +1,17 @@
+module std;
+
+fn void println(string text) {
+    extern(text) {
+        #include <iostream>
+
+        std::cout << text << std::endl;
+    }
+}
+
+fn void printrw(string text) {
+    extern(text) {
+        #include <iostream>
+
+        std::cout << text;
+    }
+}

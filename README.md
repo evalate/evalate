@@ -17,14 +17,10 @@ fn int main() {
 
 This file: ``examples/headers.evl``
 ```cpp
-// Import from a C++ header file:
-
-include cpp "/usr/include/iostream"
-
 fn int main() {
     string text = "text here";
 
-    extern cpp fn void println(text) {
+    extern(text) {
         // Any code put here will be handed to a C++ compiler
         // Any arguments will be defined as C++ variables
 
